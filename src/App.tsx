@@ -302,7 +302,7 @@ export default function App() {
         {/* Zone 1: Brand Wordmark (HUIT University Logo & Project Title) */}
         <div className="flex items-center gap-3 min-w-0 shrink">
           <img
-            src="/assets/aistudio/logo_e84a77d9.png"
+            src={`${import.meta.env.BASE_URL}assets/aistudio/logo_e84a77d9.png`}
             alt="Logo HUIT - Trường Đại học Công Thương TP. Hồ Chí Minh"
             className="w-9 h-9 rounded-full object-contain bg-white/10 p-0.5 border border-sky-400/40 shadow-sm shrink-0"
           />

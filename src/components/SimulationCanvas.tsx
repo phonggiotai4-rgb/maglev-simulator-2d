@@ -89,7 +89,7 @@ export const SimulationCanvas: React.FC<SimulationCanvasProps> = ({
 
   useEffect(() => {
     const img = new Image();
-    img.src = '/assets/aistudio/logo_e84a77d9.png';
+    img.src = `${import.meta.env.BASE_URL}assets/aistudio/logo_e84a77d9.png`;
     img.onload = () => {
       logoImgRef.current = img;
     };

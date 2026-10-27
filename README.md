@@ -4,6 +4,8 @@ Phòng thí nghiệm mô phỏng 2D tàu đệm từ (maglev) chạy trên đư�
 giảng dạy và thực hành tại HUIT. Toàn bộ mô hình vật lý chạy trên trình duyệt, không cần
 máy chủ hay API key.
 
+🔗 **Bản chạy trực tuyến:** https://phonggiotai4-rgb.github.io/maglev-simulator-2d/
+
 - Nền tảng: React 19 + TypeScript + Vite 8 + Tailwind CSS 4
 - Đồ hoạ: Canvas 2D (không dùng WebGL), hoạt ảnh theo từng khung hình
 - Âm thanh: Web Audio API tổng hợp trực tiếp (không có tệp âm thanh)
