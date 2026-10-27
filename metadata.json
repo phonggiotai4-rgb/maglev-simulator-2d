@@ -1,0 +1,6 @@
+{
+  "name": "Mô Phỏng Tàu Đệm Từ 2D",
+  "description": "Mô phỏng 2D tàu đệm từ chạy trên đường ray từ tính với các thông số vật lý tùy chỉnh, trực quan hóa từ trường và điều khiển lực nâng hạ EMS/EDS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
