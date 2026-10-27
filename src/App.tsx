@@ -310,9 +310,24 @@ export default function App() {
             <span className="leading-tight text-sm md:text-base font-bold tracking-tight truncate">
               Phòng Thí Nghiệm & Mô Phỏng Tàu Đệm Từ 2D
             </span>
-            <span className="text-[10px] font-mono font-semibold text-sky-400 tracking-wider uppercase truncate">
-              HUIT • Maglev Physics Simulator
-            </span>
+            <div className="flex items-center gap-2 min-w-0">
+              <span className="text-[10px] font-mono font-semibold text-sky-400 tracking-wider uppercase truncate">
+                HUIT • Maglev Physics Simulator
+              </span>
+              <span
+                className="hidden md:inline-flex shrink-0 items-center gap-1 text-[9px] font-mono tracking-wide whitespace-nowrap"
+                title="DEV by TRỊNH GIA PHONG - 16DHCDT01 - CHỦ ĐỀ 5"
+              >
+                <span className="text-slate-600">[</span>
+                <span className="font-semibold text-amber-300/90">DEV</span>
+                <span className="text-slate-400">by TRỊNH GIA PHONG</span>
+                <span className="text-slate-600">-</span>
+                <span className="text-slate-400">16DHCDT01</span>
+                <span className="text-slate-600">-</span>
+                <span className="text-slate-400">CHỦ ĐỀ 5</span>
+                <span className="text-slate-600">]</span>
+              </span>
+            </div>
           </div>
         </div>
 
